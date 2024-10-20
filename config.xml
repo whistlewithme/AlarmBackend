@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <entry key="server.host">http://localhost</entry>
+    <entry key="server.port">8080</entry>
+    <entry key="db.host">mongodb://localhost</entry>
+    <entry key="db.port">27017</entry>
+    <entry key="db.name">alarms</entry>
+    <entry key="db.collection">alarm</entry>
+
+</properties>
