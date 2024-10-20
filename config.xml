@@ -4,8 +4,8 @@
     <entry key="server.port">8080</entry>
     <entry key="db.host">localhost</entry>
     <entry key="db.port">27017</entry>
-    <entry key="db.name">alarms</entry>
-    <entry key="db.collection">alarm</entry>
+    <entry key="db.name">local</entry>
+    <entry key="db.collection">alarms</entry>
     <entry key="logger.enable">true</entry>
     <entry key="logger.level">INFO</entry>
 </properties>

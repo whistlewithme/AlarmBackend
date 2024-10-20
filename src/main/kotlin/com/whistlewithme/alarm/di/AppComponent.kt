@@ -10,6 +10,6 @@ import javax.inject.Singleton
 interface AppComponent {
 
     fun server(): HttpServer
-    fun mongoClient(): MongoClient
+    fun dbserver(): MongoClient
 
 }

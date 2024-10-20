@@ -1,7 +1,9 @@
 package com.whistlewithme.alarm.model
 
 data class Alarm(
-    val id: String,
+    val name: String,
     val time: String,
     val label: String
-)
+){
+    constructor() : this("", "", "")
+}

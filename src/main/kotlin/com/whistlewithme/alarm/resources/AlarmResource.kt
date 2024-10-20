@@ -13,9 +13,12 @@ import javax.inject.Inject
 class AlarmResource @Inject constructor(private val alarmRepository: AlarmRepository) {
 
     @POST
-    fun createAlarm(alarm: Alarm): Response {
+    @Path("/new")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
+    fun createAlarm(alarm: Alarm): Alarm {
         alarmRepository.addAlarm(alarm)
-        return Response.status(Response.Status.CREATED).entity(alarm).build()
+        return alarm
     }
 
     @GET

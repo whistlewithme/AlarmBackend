@@ -13,7 +13,8 @@ import javax.inject.Named
 
 
 @Module
-class DatabaseModule {
+open class DatabaseModule {
+
     @Singleton
     @Provides
     fun provideMongoClient(

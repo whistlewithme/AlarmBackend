@@ -26,6 +26,9 @@ dependencies {
     implementation("org.slf4j:slf4j-api:1.7.30")
     implementation("javax.xml.parsers:jaxp-api:1.4.5")
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation("org.glassfish.jersey.containers:jersey-container-servlet-core:2.35")
+    implementation("org.glassfish.jersey.media:jersey-media-json-jackson:2.35")
+
     testImplementation(kotlin("test"))
 }
 
