@@ -18,7 +18,7 @@ class HttpModule {
     @Provides
     fun provideRestApplicationBootstrap(alarmResource: AlarmResource): ResourceConfig {
         return ResourceConfig()
-            .register(alarmResource) // Register your resource here
+            .register(alarmResource)
     }
 
     @Provides
